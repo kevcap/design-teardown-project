@@ -50,6 +50,79 @@ body {
 }
 
 .articles {
-  flex: 1 1 725px;
+  flex: 1 1 600px;
   height: 750px;
+}
+
+.section-2 {
+  margin: 0 auto;
+  width: 1350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.post {
+  height: 600px;
+}
+
+.smashing-tv{
+  height: 700px;
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.latest-article {
+  width: 20%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.ethical {
+  margin-top: 20px;
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+}
+
+.ethical div {
+  margin: 20px auto;
+}
+
+.ethical-text{
+  height: 300px;
+  width: 600px;
+}
+
+.ethical-link {
+  width: 100px;
+  height: 50px;
+}
+
+.ethical-img {
+  height: 500px;
+  width: 900px;
+}
+
+.person-week {
+  display: flex;
+  width: 1300px;
+  margin: 0 auto;
+  height: 400px;
+  align-items: center;
+}
+
+.person-pic {
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+}
+
+.person-text {
+  margin-left: 20px;
+  width: 1000px;
+  height: 300px;
+}
+.footer {
+  margin-top: 20px;
 }
