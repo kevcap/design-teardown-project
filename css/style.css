@@ -10,6 +10,35 @@ body {
   background-color: tomato;
 }
 
+/* Font Classes */
+
+.font-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  line-height: 2em;
+  color: white;
+  text-decoration: none;
+}
+
+.font-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 2em;
+  color: white;
+  text-decoration: none;
+}
+
+.font-3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+
+.font-4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
 /* COLOR CLASSES */
 
 .grey1 {
@@ -71,6 +100,12 @@ body {
   width: 100px;
   height: 150px;
   background: #222;
+  text-align: center;
+}
+
+.nav-items a {
+  color: white;
+  text-decoration: none;
 }
 
 .container {
@@ -92,10 +127,14 @@ body {
 
 .center-div-relative {
   width: 350px;
-  height: 150px;
+  height: 100px;
   position: relative;
   left: -50%;
   top: 30px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
 }
 
 .seriously-red-absolute {
@@ -104,11 +143,20 @@ body {
 }
 
 .seriously-red-relative {
-  width: 150px;
+  width: 200px;
   height: 50px;
   position: relative;
   right: 40%;
-  top:50px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.seriously-red-relative img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 0;
 }
 
 
@@ -117,6 +165,23 @@ body {
   height: 750px;
   margin-bottom: 0;
 }
+
+.article-img img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  
+}
+
+.article-content {
+  margin: 150px 0 0 50px;
+}
+
+.article-img {
+  display: flex;
+  align-items: center;
+}
+
 
 .section-2 {
   margin: 20px auto;
@@ -222,6 +287,16 @@ body {
   background: #888;
   width: 100%;
   height: 300px;
+}
+
+.person-img img {
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+
+.person-wrote{
+  margin-left: 100px;
 }
 
 .twitter-link {
