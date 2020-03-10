@@ -9,11 +9,22 @@ body {
   background-color: #999;
 }
 
-main>.link {
+.link {
+  width: 300px;
+  height: 45px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+
+main > .link {
   margin: 100px auto;
 }
 
-p, h2, h3 {
+p,
+h2,
+h3 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -76,7 +87,7 @@ p, h2, h3 {
 }
 
 .grey4 {
-  background: #444
+  background: #444;
 }
 
 .grey5 {
@@ -128,7 +139,7 @@ p, h2, h3 {
   color: white;
   text-decoration: none;
   display: block;
-  margin-top: 40px
+  margin-top: 40px;
 }
 
 /* WORKING ON SECTIONS */
@@ -140,9 +151,13 @@ p, h2, h3 {
   flex-wrap: wrap;
 }
 
+.hide {
+  display: none;
+}
+
 .center-div-absolute {
   position: absolute;
-  left: 50%
+  left: 50%;
 }
 
 .center-div-relative {
@@ -159,7 +174,7 @@ p, h2, h3 {
 
 .seriously-red-absolute {
   position: absolute;
-  right: 0
+  right: 0;
 }
 
 .seriously-red-relative {
@@ -226,6 +241,10 @@ p, h2, h3 {
   margin-left: 20px;
 }
 
+footer * {
+  margin-top: 20px;
+}
+
 .smashing-member * {
   margin: 5px auto;
   text-align: center;
@@ -267,15 +286,6 @@ p, h2, h3 {
   height: 300px;
 }
 
-.link {
-  width: 300px;
-  height: 45px;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 20px auto;
-}
-
 .latest-article {
   width: 20%;
   height: 100px;
@@ -307,6 +317,8 @@ p, h2, h3 {
 .ethical-img {
   height: 500px;
   width: 900px;
+  display: block;
+  margin: 0 auto;
 }
 
 .person-week {
@@ -414,11 +426,21 @@ p, h2, h3 {
   flex: 1 1 290px;
   margin: 10px;
   background: #666;
-  padding: 20px 40px
+  padding: 20px 40px;
+}
+
+.footer-list li {
+  margin-right: 40px;
+  font-size: 25px;
 }
 
 .guide ul {
   margin-top: 50px;
+}
+
+.footer-bottom-text li {
+  margin: 10px 20px;
+  cursor: pointer;
 }
 
 .guide ul li {
@@ -442,6 +464,14 @@ p, h2, h3 {
   border-radius: 50%;
 }
 
+footer p {
+  width: fit-content;
+  width: -moz-fit-content;
+  height: 30px;
+  margin: 20px auto;
+  font-size: 20px;
+}
+
 .newsletter p {
   width: 500px;
   text-align: center;
@@ -458,23 +488,6 @@ footer {
   justify-content: center;
   padding: 20px;
   padding-left: 50px;
-}
-
-.footer-list li {
-  margin-right: 40px;
-  font-size: 25px;
-}
-
-footer * {
-  margin-top: 20px;
-}
-
-footer p {
-  width: fit-content;
-  width: -moz-fit-content;
-  height: 30px;
-  margin: 20px auto;
-  font-size: 20px;
 }
 
 .footer-text-1 {
@@ -515,9 +528,4 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.footer-bottom-text li {
-  margin: 10px 20px;
-  cursor: pointer;
 }
