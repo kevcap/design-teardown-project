@@ -1,42 +1,64 @@
 * {
   margin: 0;
-  margin-bottom: 10px;
   padding: 0;
   box-sizing: border-box;
-  /* border: 4px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   background-color: tomato;
 }
 
+main > .link {
+  margin: 100px auto;
+}
+
+p, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 /* Font Classes */
 
 .font-1 {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 38px;
   line-height: 2em;
   color: white;
   text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .font-2 {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 2em;
   color: white;
   text-decoration: none;
+  margin: 30px 0 20px 20px;
 }
 
 .font-3 {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 28px;
+  margin: 30px 0 20px 20px;
 }
 
 .font-4 {
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px 0 20px 20px;
   font-size: 22px;
   line-height: 1.5em;
+  color: white;
+  
+}
+
+.font-5 {
+  margin: 30px 0 20px 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.font-6 {
+  font-size: 20px;
+  line-height: 1.6rem;
+  color:#222;
 }
 
 /* COLOR CLASSES */
@@ -106,10 +128,8 @@ body {
 .nav-items a {
   color: white;
   text-decoration: none;
-}
-
-.container {
-  margin-top: 20px;
+  display: block;
+  margin-top: 40px
 }
 /* WORKING ON SECTIONS */
 
@@ -208,12 +228,38 @@ body {
   height: 50px;
 }
 
-.smashing-tv{
+.smashing-tv {
   height: 700px;
   width: 1250px;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
+.smashing-tv * {
+  margin: 20px auto;
+}
+
+.smashing-tv img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+
+}
+
+.description {
+  width: 400px;
+  height: 300px;
+}
+
+.link {
+  width: 300px;
+  height: 45px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
 .latest-article {
   width: 20%;
   height: 100px;
@@ -276,17 +322,18 @@ body {
 }
 
 .comments {
-  width: 1200px;
+  width: 1320px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5px;
+  gap: 10px;
 }
 
 .person-comment {
   background: #888;
   width: 100%;
   height: 300px;
+  padding: 20px;
 }
 
 .person-img img {
@@ -317,6 +364,18 @@ body {
   height: 400px;
 }
 
+.title {
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: 20px;
+  font-size: 45px;
+}
+
+.design-system-text .link {
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
 .design-system-img {
   float: right;
   margin: -40px 80px 0 10px;
@@ -338,21 +397,55 @@ body {
   flex: 1 1 290px;
   margin: 10px;
   background: #666;
+  padding: 20px 40px
 }
 
+.guide ul {
+  margin-top: 50px;
+}
+.guide ul li {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
 .newsletter {
   flex: 1 1 600px;
   margin: 10px;
 }
 
+.newsletter * {
+  margin: 30px auto;
+}
+
+.newsletter img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  border-radius: 50%;
+}
+.newsletter p {
+  width: 500px;
+  text-align: center;
+}
 footer {
   padding-top: 20px;
 }
 
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.footer-list li {
+  margin-right: 40px ;
+  font-size: 25px;
+}
+
 footer * {
-  width: 100%;
   margin-top: 20px;
-  border: 1px solid black;
 }
 
 footer p {
@@ -373,12 +466,17 @@ footer p {
   width: 500px;
   height: 200px;
 }
+
+.footer-text-2 p {
+  text-align: center;
+  padding-top: 40px;
+}
 .footer-text-and-images {
   display: flex;
   width: 900px;
-  height: 300px;
+  height: 200px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   align-items: flex-end;
   justify-content: space-around;
 }
@@ -390,5 +488,13 @@ footer p {
 
 .footer-bottom-text {
   width: 400px;
-  height: 200px;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-bottom-text li {
+  margin: 10px 20px;
+  cursor: pointer;
 }
