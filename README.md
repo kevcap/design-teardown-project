@@ -3,7 +3,7 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![Github Issues](https://img.shields.io/badge/GitHub-Pull%20Requests-orange)](https://github.com/Kevinalvesdev/design-teardown-project/issues)
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/Kevinalvesdev/design-teardown-project/issues)
 [![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/Kevinalvesdev/design-teardown-project/pulls)
 [![Made By](https://img.shields.io/badge/Made%20By-Kevin%20Alves-brightgreen)](https://github.com/kevinalvesdev)
 &
