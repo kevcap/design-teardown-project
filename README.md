@@ -3,9 +3,9 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/Kevinalvesdev/design-teardown-project/issues)
-[![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/Kevinalvesdev/design-teardown-project/pulls)
-[![Made By](https://img.shields.io/badge/Made%20By-Kevin%20Alves-brightgreen)](https://github.com/kevinalvesdev)
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/kevinfrontend/design-teardown-project/issues)
+[![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/kevinfrontend/design-teardown-project/pulls)
+[![Made By](https://img.shields.io/badge/Made%20By-Kevin%20Alves-brightgreen)](https://github.com/kevinfrontend)
 &
 [![Made By1](https://img.shields.io/badge/Made%20By-Shabab%20Ali-brightgreen)](https://github.com/alishabab)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
@@ -54,9 +54,9 @@
 
 👤 **Kevin Alves**
 
-- Github: [@kevinalvesdev](https://github.com/Kevinalvesdev)
-- Twitter: [@kevinnnmn](https://twitter.com/kevinnnmn)
-- Linkedin: [@kevinnn](https://www.linkedin.com/in/kevinnn/)
+- Github: [@kevinfrontend](https://github.com/kevinfrontend)
+- Twitter: [@kevinfrontend](https://twitter.com/kevinfrontend)
+- Linkedin: [@kevinfrontend](https://www.linkedin.com/in/kevinfrontend/)
 
 👤 **Shabab Ali**
 
@@ -100,4 +100,4 @@ Tell her/him you love her/him 💌;
 Wish you a Happy coding and a Happy life  ❤️
 ```
 
-<small>Template made by <a href='https://twitter.com/kevinnnmn'>Kevin Alves</a></small>
+<small>Template made by <a href='https://twitter.com/kevinfrontend'>Kevin Alves</a></small>
